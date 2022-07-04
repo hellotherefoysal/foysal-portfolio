@@ -1,6 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
-font-family: 'Saira', sans-serif;
+    font-family: 'Saira', sans-serif;
+    margin: 0;
 }
 h1 {
     font-size: 50px;
@@ -11,19 +12,20 @@ h1 {
 div{
     display: inline;
 }
-section{
+.flexible-container{
     display: flex;
 }
 .half-width {
     width: 50%;
-    padding: left:2%;
+    padding-left: 2%;
+    margin-bottom: 100px;
 }
 .half-width img {
     width: 80%;
 }
 .button {
     text-decoration: none;
-    background-image: linear-gradient(blueviolet, BLACK);
+    background-image: linear-gradient(blueviolet, blueviolet);
     padding: 10px 40px;
     color: white;
     font-size: 17px;
@@ -33,4 +35,36 @@ section{
 }
 .welcome{
     background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.dream{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experiences{
+    box-shadow: 10px 10px 40px grey;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    margin-bottom: 100px;
+    border-radius: 5px;
+}
+.h2{
+font-size: 40px;
+}
+.bg-experiences{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+footer p{
+text-align: center;
+}
+#blue{
+    border-left: 7px solid blue;
+}
+#orange {
+    border-left:7px solid tomato;
 }
