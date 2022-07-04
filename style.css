@@ -1,0 +1,33 @@
+body{
+    font-family: 'Poppins', sans-serif;
+font-family: 'Saira', sans-serif;
+}
+h1 {
+    font-size: 50px;
+}
+.blueviolet{
+    color: blueviolet;
+}
+div{
+    display: inline;
+}
+section{
+    display: flex;
+}
+.half-width {
+    width: 50%;
+    padding: 50px 50px 50px 50px;
+}
+.half-width img {
+    width: 60%;
+}
+.button {
+    text-decoration: none;
+    background-image: linear-gradient(blueviolet, BLACK);
+    padding: 10px 40px;
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+    border-radius: 5px;
+    margin-top: 50px;
+}
