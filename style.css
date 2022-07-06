@@ -3,26 +3,33 @@ body{
     font-family: 'Saira', sans-serif;
     margin: 0;
 }
+
 h1 {
     font-size: 50px;
 }
+
 .blueviolet{
     color: blueviolet;
 }
+
 div{
     display: inline;
 }
+
 .flexible-container{
     display: flex;
 }
+
 .half-width {
     width: 50%;
     padding-left: 2%;
     margin-bottom: 100px;
 }
+
 .half-width img {
     width: 80%;
 }
+
 .button {
     text-decoration: none;
     background-image: linear-gradient(blueviolet, blueviolet);
@@ -33,15 +40,18 @@ div{
     border-radius: 5px;
     margin-top: 50px;
 }
+
 .welcome{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
+
 .dream{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
 }
+
 .experiences{
     box-shadow: 10px 10px 40px grey;
     width: 40%;
@@ -59,12 +69,15 @@ font-size: 40px;
     background-repeat: no-repeat;
     background-position: left;
 }
+
 footer p{
 text-align: center;
 }
+
 #blue{
     border-left: 7px solid blue;
 }
+
 #orange {
     border-left:7px solid tomato;
 }
